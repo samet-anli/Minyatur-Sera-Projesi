@@ -1,0 +1,75 @@
+
+ROM used:   1275/2048 (62%)
+            1275/2048 (62%) including unused fragments
+
+            0.4 Average locations per line
+            2.4 Average locations per statement
+
+RAM used:   19/224 (8%) at main() level
+            36/224 (16%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  267   148  28  DS1202_PROJECT.c
+  508     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f628a.h
+  250    88  16  add_lcd.h
+ 2229   257  48  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  116    44   8  DS1302.C
+----- -----
+ 3370   537 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   2    1             @delay_ms2
+0      8   1    0             @const709
+0     56   4    2   594  4.3  lcd_init
+ Inline         3   620  3.8  lcd_read_byte
+0     49   4    2   204  3.2  lcd_read_nibble
+0     87   7    3   313  3.4  lcd_send_byte
+0     43   3    1   336  1.9  lcd_send_nibble
+0     35   3    4   335  5.5  lcd_gotoxy
+0     36   3    1   280  3.6  lcd_putc
+0     24   2    2   199  4.3  write_ds1302_byte
+0     15   1    2    94  1.8  write_ds1302
+0     40   3    3   348  4.8  read_ds1302
+0     32   3    2   247  3.7  rtc_init
+0     35   3    6   310  2.2  rtc_set_datetime
+ Inline         4   190  3.2  rtc_get_date
+ Inline         3   136  3.0  rtc_get_time
+0    575  45    3  6453  8.9  MAIN
+0     21   2    3             @DIV88
+0     87   7    6             @PRINTF_D0_707
+0     11   1    0             @const778
+0      9   1    0             @const779
+0     13   1    0             @const780
+0     13   1    0             @const781
+0      9   1    0             @const782
+0     11   1    0             @const783
+0     10   1    0             @const784
+0     11   1    0             @goto11439
+0     10   1    0             @const788
+0     10   1    0             @const789
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               15
+    Statements              537
+    Comments                581
+    Volume (V)              15267
+    Difficulty (D)          57.3
+    Effort to implement (E) 874762
+    Time to implement (T)   13 hours, 30 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   60
+    Maintainability (MI)    65
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1271  773  
+
+
+

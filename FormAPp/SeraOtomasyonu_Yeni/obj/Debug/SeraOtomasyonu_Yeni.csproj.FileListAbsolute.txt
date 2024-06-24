@@ -1,0 +1,15 @@
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\bin\Debug\SeraOtomasyonu_Yeni.exe.config
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\bin\Debug\SeraOtomasyonu_Yeni.exe
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\bin\Debug\SeraOtomasyonu_Yeni.pdb
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.csproj.AssemblyReference.cache
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.csproj.SuggestedBindingRedirects.cache
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.logPanel.resources
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.Properties.Resources.resources
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.csproj.GenerateResource.cache
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.csproj.CoreCompileInputs.cache
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.exe
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.pdb
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.bitkiEkim.resources
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.bitkiSecim.resources
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.kulllaniciYonetimPaneli.resources
+C:\Users\Samet\OneDrive\Masaüstü\Sera\SeraOtomasyonu_Yeni\SeraOtomasyonu_Yeni\obj\Debug\SeraOtomasyonu_Yeni.anaYonetimPaneli.resources

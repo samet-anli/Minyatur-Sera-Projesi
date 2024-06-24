@@ -1,0 +1,146 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     saniye
+021     dakika
+022     saat
+023     gun
+024     ay
+025     yil
+026     haftanin_gunu
+027     bitki
+028.0   haber1
+028.1   haber2
+028.2   haber3
+028.3   durum1
+028.4   durum2
+028.5   durum3
+029     x
+02A     y
+02B     MAIN.sistemBaslamaGunu
+02B-02E atan2.y
+02C     rtc_set_datetime.day
+02C     @PRINTF_D0_707.P1
+02C     rtc_init.x
+02C     lcd_init.i
+02C     MAIN.@SCRATCH1
+02D     @PRINTF_D0_707.P1
+02D     rtc_set_datetime.mth
+02D     lcd_init.@SCRATCH1
+02D     rtc_init.@SCRATCH1
+02D     MAIN.@SCRATCH2
+02E     rtc_set_datetime.year
+02E     MAIN.@SCRATCH3
+02E     @PRINTF_D0_707.@SCRATCH1
+02F-032 atan2.x
+02F     rtc_set_datetime.dow
+02F     @PRINTF_D0_707.@SCRATCH2
+030     rtc_set_datetime.hr
+030     read_ds1302.cmd
+030     @PRINTF_D0_707.@SCRATCH3
+031     rtc_set_datetime.min
+031     read_ds1302.i
+031     @PRINTF_D0_707.@SCRATCH4
+032     read_ds1302.data
+032     @DIV88.P1
+032     lcd_putc.c
+032     write_ds1302.cmd
+033     write_ds1302.data
+033-036 atan2.z
+033     @DIV88.P1
+033     @delay_ms2.P2
+033     lcd_gotoxy.x
+034     write_ds1302_byte.cmd
+034     lcd_gotoxy.y
+034     @DIV88.@SCRATCH1
+035     lcd_gotoxy.address
+035     write_ds1302_byte.i
+036     lcd_gotoxy.@SCRATCH1
+037     lcd_send_byte.address
+037.0   atan2.sign
+038     lcd_send_byte.n
+038     atan2.quad
+039     lcd_read_byte.low
+039     lcd_send_byte.@SCRATCH1
+03A     lcd_send_nibble.n
+03A     lcd_read_byte.high
+03B     lcd_read_nibble.n
+03B     lcd_read_byte.@SCRATCH1
+03C     lcd_read_nibble.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000008  LCD_INIT_STRING.data
+00000C  @const778.call
+000017  @const779.call
+000020  @const780.call
+00002D  @const781.call
+00003A  @const782.call
+000043  @const783.call
+00004E  @const784.call
+000058  @const788.call
+000062  @const789.call
+00006C  @delay_ms2
+000081  lcd_send_nibble
+0000AC  lcd_read_nibble
+0000DD  lcd_send_byte
+0000E0  lcd_read_byte
+000134  lcd_init
+00016C  write_ds1302_byte
+000184  write_ds1302
+000193  read_ds1302
+0001BB  rtc_init
+0001DB  rtc_set_datetime
+0001FE  lcd_gotoxy
+000221  lcd_putc
+000245  @DIV88
+00025A  @PRINTF_D0_707
+0002B1  @cinit1
+0002B1  MAIN
+0002BD  @cinit2
+0002EC  rtc_get_time
+0002FB  rtc_get_date
+0004F0  @goto11439
+
+Project Directory:
+    C:\Users\Samet\OneDrive\Masaüstü\SERA_DOCS\RTC - Ýkinci\kod\
+
+Project Files:
+    DS1202_PROJECT.c                                        [13-Ara-22 11:14  CRC=8B4BAA8D]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f628a.h [21-Haz-13 16:04  CRC=FEBF88CA]
+    add_lcd.h                                               [03-Ara-22 13:21  CRC=56409D9F]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h [28-Eyl-12 11:35  CRC=546412C9]
+    DS1302.C                                                [01-Ara-22 21:25  CRC=5008C002]
+
+Source signature=D4C163C3
+
+Units:
+    DS1202_PROJECT (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   DS1202_PROJECT.xsym
+    Errors:      DS1202_PROJECT.err
+    Ext Symbols: DS1202_PROJECT.esym
+    INHX8:       DS1202_PROJECT.hex
+    Symbols:     DS1202_PROJECT.sym
+    List:        DS1202_PROJECT.lst
+    Debug/COFF:  DS1202_PROJECT.cof
+    Project:     DS1202_PROJECT.ccspjt
+    Call Tree:   DS1202_PROJECT.tre
+    Statistics:  DS1202_PROJECT.STA
